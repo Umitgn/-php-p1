@@ -8,8 +8,8 @@
 <body>
     <h1>dit is index</h1>
 <?php
-include 'footer.php'
-include 'navbar.php'
+include 'navbar.php';
+include 'footer.php';
 ?>
 </body>
 </html>
