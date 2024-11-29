@@ -7,6 +7,9 @@
 </head>
 <body>
     <h1>contact</h1>
+<?php include 'navbar.php';
+?>
+
 <form>
 <label for="name">Naam</label>
 <input type="text" name="name">
@@ -15,16 +18,8 @@
 <label for="message">bericht</label>
 <input type="text" name="bericht">
 
-
-
-
 </form>
-
-
-
-
 <?php
-include 'navbar.php';
 include 'footer.php';
 ?>
 </body>

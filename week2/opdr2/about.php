@@ -6,10 +6,12 @@
     <title>about</title>
 </head>
 <body>
+    <?php
+    include 'navbar.php';
+    ?>
     <h1>about</h1>
     
     <?php
-include 'navbar.php';
 include 'footer.php';
 ?>
 </body>

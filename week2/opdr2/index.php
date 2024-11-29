@@ -6,6 +6,9 @@
     <title>index</title>
 </head>
 <body>
+    <?php
+    include 'navbar.php';
+    ?>
     <h1>dit is index</h1>
 <?php
 include 'navbar.php';
