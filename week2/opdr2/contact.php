@@ -12,13 +12,17 @@
 
 <form>
 <label for="name">Naam</label>
-<input type="text" name="name">
-<label for="email">E-mail</label>
-<input type="text" name="E-mail">
-<label for="message">bericht</label>
-<input type="text" name="bericht">
-
+<input type="text" name="name" id="name">
+ 
+    <label for="email">E-mail</label>
+<input type="email" name="email" id="email">
+ 
+    <label for="message">Bericht</label>
+<textarea name="bericht" id="message"></textarea>
+ 
+    <input type="submit" value="Verstuur">
 </form>
+
 <?php
 include 'footer.php';
 ?>

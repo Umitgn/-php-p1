@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>opdr9</title>
 </head>
 <body>
+<?php 
+session_start();
+$_SESSION['username'] = 'patrick'
 
+$_SESSION['username'] = $_POST ['username']
+?>    
 
+<?php 
 
-
-    <?php
-    include 'navbar.php';
-    ?>
-    <h1>dit is index</h1>
-<?php
-include 'footer.php';
 ?>
+
+
+
 </body>
 </html>
